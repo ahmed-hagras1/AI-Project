@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Python\\AI_Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{315C7189-C1F0-427D-AD42-692CA29D5281}|ASearch\\ASearch.pyproj|C:\\Python\\AI_Project\\ASearch\\ASearch.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{315C7189-C1F0-427D-AD42-692CA29D5281}|ASearch\\ASearch.pyproj|solutionrelative:ASearch\\ASearch.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0972BCEE-B010-4189-8BAB-A1D56D18D74D}|BFS\\BFS.pyproj|C:\\Python\\AI_Project\\BFS\\BFS.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{0972BCEE-B010-4189-8BAB-A1D56D18D74D}|BFS\\BFS.pyproj|solutionrelative:BFS\\BFS.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
@@ -35,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ASearch.py",
+              "DocumentMoniker": "C:\\Python\\AI_Project\\ASearch\\ASearch.py",
+              "RelativeDocumentMoniker": "ASearch\\ASearch.py",
+              "ToolTip": "C:\\Python\\AI_Project\\ASearch\\ASearch.py",
+              "RelativeToolTip": "ASearch\\ASearch.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-12-11T14:45:43.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BFS.py",
               "DocumentMoniker": "C:\\Python\\AI_Project\\BFS\\BFS.py",
               "RelativeDocumentMoniker": "BFS\\BFS.py",
