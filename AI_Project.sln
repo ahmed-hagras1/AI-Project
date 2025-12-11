@@ -7,6 +7,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BFS", "BFS\BFS.pyproj", "{0
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ASearch", "ASearch\ASearch.pyproj", "{315C7189-C1F0-427D-AD42-692CA29D5281}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DFS", "DFS\DFS.pyproj", "{7D0044E1-F552-4656-8791-09A8B2F1432E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,8 @@ Global
 		{0972BCEE-B010-4189-8BAB-A1D56D18D74D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{315C7189-C1F0-427D-AD42-692CA29D5281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{315C7189-C1F0-427D-AD42-692CA29D5281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0044E1-F552-4656-8791-09A8B2F1432E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0044E1-F552-4656-8791-09A8B2F1432E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

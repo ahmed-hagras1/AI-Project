@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Python\\AI_Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7D0044E1-F552-4656-8791-09A8B2F1432E}|DFS\\DFS.pyproj|C:\\Python\\AI_Project\\DFS\\DFS.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7D0044E1-F552-4656-8791-09A8B2F1432E}|DFS\\DFS.pyproj|solutionrelative:DFS\\DFS.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{315C7189-C1F0-427D-AD42-692CA29D5281}|ASearch\\ASearch.pyproj|C:\\Python\\AI_Project\\ASearch\\ASearch.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{315C7189-C1F0-427D-AD42-692CA29D5281}|ASearch\\ASearch.pyproj|solutionrelative:ASearch\\ASearch.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -39,6 +43,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DFS.py",
+              "DocumentMoniker": "C:\\Python\\AI_Project\\DFS\\DFS.py",
+              "RelativeDocumentMoniker": "DFS\\DFS.py",
+              "ToolTip": "C:\\Python\\AI_Project\\DFS\\DFS.py",
+              "RelativeToolTip": "DFS\\DFS.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-12-11T14:48:42.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ASearch.py",
               "DocumentMoniker": "C:\\Python\\AI_Project\\ASearch\\ASearch.py",
               "RelativeDocumentMoniker": "ASearch\\ASearch.py",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BFS.py",
               "DocumentMoniker": "C:\\Python\\AI_Project\\BFS\\BFS.py",
               "RelativeDocumentMoniker": "BFS\\BFS.py",
@@ -59,8 +76,7 @@
               "RelativeToolTip": "BFS\\BFS.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-12-11T14:12:01.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T14:12:01.626Z"
             }
           ]
         },
