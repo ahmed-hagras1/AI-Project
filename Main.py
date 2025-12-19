@@ -7,6 +7,7 @@ from UCS import UCS
 from IDS import IDS
 from HillClimbing import HillClimbing
 from GeneticAlgorithm import GeneticAlgorithm
+from GreedyBFS import GreedyBFS
 
 # 1. Setup Maze
 maze = Maze(10, wall_prob=0.3)
@@ -124,3 +125,19 @@ if ga_path and ga_path[-1] == goal:
     maze.print_maze(ga_path)
 else:
     print("Genetic Algorithm: Goal not reached (Max generations exceeded or stuck)")
+    
+
+# ----------------- Greedy Best-First Search Section -----------------
+greedy_solver = GreedyBFS(maze)
+
+t_start = time.time()
+greedy_path, greedy_nodes = greedy_solver.solve(start, goal)
+greedy_time = (time.time() - t_start) * 1000
+
+print(f"Greedy BFS: length={len(greedy_path)}, explored={greedy_nodes}, time={greedy_time:.2f} ms")
+
+if greedy_path:
+    print("Greedy BFS Path:")
+    maze.print_maze(greedy_path)
+else:
+    print("Greedy BFS: No path found")
