@@ -52,13 +52,15 @@ else:
 print("-" * 30)
 
 # ----------------- A* Section -----------------
-astar_solver = AStarSearch(maze)
+# We now explicitly pass the heuristic_type="manhattan"
+astar_solver = AStarSearch(maze, heuristic_type="manhattan")
 
 t_start = time.time()
 astar_path, astar_nodes = astar_solver.solve(start, goal)
 astar_time = (time.time() - t_start) * 1000
 
-print(f"A*:  length={len(astar_path)}, explored={astar_nodes}, time={astar_time:.2f} ms")
+print(f"A* (Manhattan): length={len(astar_path)}, explored={astar_nodes}, time={astar_time:.2f} ms")
+
 if astar_path:
     print("A* Path:")
     maze.print_maze(astar_path)
@@ -110,14 +112,15 @@ else:
     print("Hill Climbing: Stuck in local maximum (No path found)")
     
 # ----------------- Genetic Algorithm Section -----------------
+# We now explicitly pass heuristic_type="manhattan"
 # You can adjust population_size and generations to improve accuracy
-ga_solver = GeneticAlgorithm(maze, population_size=100, generations=200)
+ga_solver = GeneticAlgorithm(maze, population_size=100, generations=200, heuristic_type="manhattan")
 
 t_start = time.time()
 ga_path, ga_nodes = ga_solver.solve(start, goal)
 ga_time = (time.time() - t_start) * 1000
 
-print(f"Genetic Algorithm: length={len(ga_path)}, explored={ga_nodes}, time={ga_time:.2f} ms")
+print(f"Genetic Algorithm (Manhattan): length={len(ga_path)}, explored={ga_nodes}, time={ga_time:.2f} ms")
 
 # Check if path exists AND if it actually reached the goal
 if ga_path and ga_path[-1] == goal:
