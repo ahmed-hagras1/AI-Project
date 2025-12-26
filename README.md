@@ -79,6 +79,8 @@ AI-Project/
 This section shows how each algorithm solves the same maze.  
 All images are located inside the `Images/` folder.
 
+![Maze Algorithms](Images/Combined_Algorithms.gif)
+
 ---
 
 ### 🧩 Original Maze
@@ -200,3 +202,4 @@ This section analyzes the performance of 8 different search algorithms based on 
 * **Sub-optimal (21 steps):** DFS, Hill Climbing.
 
 ![Path Comparison](Images/compare_path.png)
+
